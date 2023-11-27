@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Portofolio </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">Beranda</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#portfolio">Portofolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<section id="home" class="container mt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="uplogo.png" alt="Foto Profil" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h2>Tentang Saya</h2>
+      <p>Mahasiswa semester 3 Jurusan Teknik Informatika yang punya mimpi lulus tepat waktu, saya mempunyai minat/ interest pada bidang IT khususnya pada bidang desain web , semoga di kedepannya saya bisa mempelajari lebih dalam tentang dasar pemograman desain WEB</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="portfolio" class="container mt-5">
+  <h2>Portofolio</h2>
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="up.jpg" class="d-block w-100" alt="Proyek 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: black; background-color: antiquewhite;">Universitas Pancasila</h5>
+          <p style="color: black; background-color: aliceblue;">Selamat datang di Universitas Pancasila, universitas kami menyandang nama besar Ideologi Negara Indonesia sehingga semangat Pancasila menjadi landasan kami dalam memberikan pendidikan bagi masyarakat sesuai dengan misi yang diemban Universitas Pancasila, yaitu “Memberikan peranan positif dalam pengembangan ilmu dan teknologi serta pengembangan masyarakat ber-Pancasila seperti yang dicita-citakan dalam Pembukaan Undang-undang Dasar 1945”.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Jurusan Arsitektur.jpeg" class="d-block w-100" alt="Proyek 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: black; background-color: antiquewhite;">Arsitektur</h5>
+          <p style="color: black;background-color: antiquewhite;">Jurusan Arsitektur, Universitas Pancasila saat ini terdiri dari 2 konsentrasi keilmuan yaitu Peminatan Perancangan Arsitektur Bangunan, Peminatan Perancangan Arsitektur Kawasan . Untuk mendukung seluruh bidang keilmuan, kami didukung oleh berbagai fasilitas diantaranya adalah Laboratorium Perancangan atau Studio, Laboratorium Struktur dan Teknologi Bangunan, Laboratorium Digital Arsitektur.</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <img src="elektro.jpg" class="d-block w-100" alt="Proyek 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="color: black; background-color: antiquewhite;">Elektro</h5>
+          <p style="color: black;background-color: azure;">Teknik Elektro merupakan bidang ilmu yang mempelajari listrik dan aplikasinya dalam kehidupan sehari-hari. Quipperian akan dibekali dengan ilmu dan pengetahuan seputar konsep, perancangan, pengembangan, serta produksi perangkat listrik dan elektronik. Kamu juga akan banyak membahas metode pembangkit dengan sumber energi baru, metode penyimpanan energi, dan metode kontrol penghematan energi.</p>
+        </div>
+
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</section>
+
+
+<section id="contact" class="container mt-5">
+  <h2>Kontak</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Nama</label>
+      <input type="text" class="form-control" id="name" placeholder="Masukkan nama">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="Masukkan email">
+    </div>
+    <div class="form-group">
+      <label for="message">Pesan</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Masukkan pesan"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+  </form>
+</section>
+
+
+<footer class="container-fluid bg-dark text-light text-center py-3">
+  <p>Email: univpancasila@ac.id</p>
+  <p>Follow on social media: <a href="#" class="text-light">Facebook</a>, <a href="#" class="text-light">Twitter</a></p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
